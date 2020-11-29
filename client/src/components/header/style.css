@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: black;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.header-inner{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.e-learning{
+    color: #999;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    padding: 10px 20px 10px;
+    margin-left: -20px;
+    font-size: 20px;
+    font-weight: 200;
+    transition: .3s;
+}
+.e-learning:hover{
+    color: #fff;
+}
+.you-use-guest{
+    color: #999;
+    padding: 10px 20px 10px;
+    font-size: 14px;
+}
+.you-use-guest-link{
+    color: #999;
+    text-decoration: none;
+    font-size: 14px;
+}
+.you-use-guest-link:hover{
+    color: #fff;
+    text-decoration: underline;
+}

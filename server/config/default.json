@@ -1,0 +1,9 @@
+{
+    "port": 5000,
+    "dbConnection":{
+        "host": "localhost",
+        "user": "root",
+        "password": "",
+        "database": "mernfishsite"
+    }
+}
