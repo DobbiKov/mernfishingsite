@@ -1,4 +1,5 @@
 # MERN FISHING SITE
+![photo](./photo.png)
 
 Developer: [**Roman Zapotockiy**](https://t.me/dobbi_crmp) (***dobbikov***)
 
@@ -17,3 +18,5 @@ Developer: [**Roman Zapotockiy**](https://t.me/dobbi_crmp) (***dobbikov***)
   - [React JS](https://reactjs.org) (npm install react)
 2. **npm install**
 3. **npm run server && npm run client**
+
+[1]: ()
