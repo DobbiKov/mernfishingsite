@@ -14,6 +14,6 @@ Developer: [**Roman Zapotockiy**](https://t.me/dobbi_crmp) (***dobbikov***)
 ## Setup
 1. Install the following:
   - [Node JS](https://nodejs.org)
-  - [React JS](npm install react)
+  - [React JS](https://reactjs.org) (npm install react)
 2. **npm install**
 3. **npm run server && npm run client**
