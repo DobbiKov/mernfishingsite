@@ -1,6 +1,6 @@
 # MERN FISHING SITE
 
-Developer: **Roman Zapotockiy** (***dobbikov***)
+Developer: [**Roman Zapotockiy**](https://t.me/dobbi_crmp) (***dobbikov***)
 
 ## BackEnd
 - Node JS
