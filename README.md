@@ -1,10 +1,13 @@
-# mernfishingsite
-It's fishing site. FrontEnd + BackEnd. 
+# MERN FISHING SITE
 
-Developer: Roman Zapotockiy (dobbikov)
+Developer: **Roman Zapotockiy** (***dobbikov***)
 
-Technologies: 
-  FrontEnd:
-    React JS + react router dom + fetch;
-  BackEnd:
-    Node JS + Express + MySQL
+## BackEnd
+- Node JS
+- Express
+- MySQL
+
+## FrontEnd
+- React JS
+- React Router DOM
+- Fetch
