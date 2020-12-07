@@ -5,7 +5,8 @@ const DBCONFIG = {
     host: DBCONF.host,
     user: DBCONF.user,
     database: DBCONF.database,
-    password: DBCONF.password
+    password: DBCONF.password,
+    insecureAuth : true
 };
 
 const dbHandle = mysql.createConnection(DBCONFIG);
