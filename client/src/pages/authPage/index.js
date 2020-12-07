@@ -20,7 +20,7 @@ export const AuthPage = () => {
         var obj = {
             login, password
         };
-        const res = await fetch('http://localhost:5000/api/auth/auth', {method: 'POST', body: JSON.stringify(obj), headers: {"Content-Type" : "application/json"}});
+        const res = await fetch('http:///45.67.56.85:8080/api/auth/auth', {method: 'POST', body: JSON.stringify(obj), headers: {"Content-Type" : "application/json"}});
         const data = await res.json();
         console.log(data);
     }
