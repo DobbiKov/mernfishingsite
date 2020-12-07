@@ -30,6 +30,32 @@ router.post('/auth', async (req, res) => {
             message: "Что-то пошло не так." 
         });
     }
-})
+});
+
+router.get('/auth/all', async (req, res) => {
+    try{
+        const query = "SELECT * FROM users";
+
+        dbHandle.query(query, (err, result, field) => {
+            if(err){
+                res.json({
+                    status: 500,
+                    message: "Что-то пошло не так в базе данных."
+                });
+            }else{
+                res.json({
+                    status: 200,
+                    message: "OK",
+                    data: result
+                });
+            }
+        });
+    }catch(e){
+        res.json({
+            status: 500,
+            message: "Что-то пошло не так."
+        })
+    }
+});
 
 module.exports = router;
